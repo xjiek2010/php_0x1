@@ -2,7 +2,7 @@
 /*
  * By:0x584A
  * Data:2014年12月27日 19:56:31
- * MySql操作类
+ * MySql操作类1
  */
 
 class mysql {
