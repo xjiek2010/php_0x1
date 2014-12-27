@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>index模版</title>
+</head>
+<body>
+	<!-- 替换要访问的$neirong -->
+	{$neirong} <br /><br />
+	<hr />
+	<!-- 数组 -->
+	<b>{$row[0]} | {$row[1]}</b>	
+	<hr />
+	<!-- 二维数组 -->
+	{section name=list loop=$xin}
+		{$xin[list].xin} - {$xin[list].Date} <br>
+	{/section}
+	
+	
+	
+</body>
+</html>

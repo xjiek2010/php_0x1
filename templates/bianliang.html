@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD HTML 4.01 Strict//EN' 'http://www.w3.org/TR/html4/strict.dtd'>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+<title>Smarty模版变量操作符</title>
+</head>
+<body>
+原内容：{$xianshi1}
+	<hr />
+截取：{$xianshi2|truncate:21:"..."}<br/>
+字符：{$xianshi2|count_characters}<br/>
+时间：{$sj|date_format:'%Y-%m-%d'}<br/>
+smarty自带：{$smarty.now|date_format:'%Y-%m-%d'}<br/>
+默认：{$xianshi3|default:"没有内容name:xiaoshi3"} <br />
+<!-- 转码类型：html、url、htmlall -->
+转码：{$xianshi2|cat:' <a href="#">连接</a> '|escape}<br/>
+替换：{$xianshi2|replace:'符':'By:0x584A'} <br />
+<!-- 插空：	{$xianshi2|spacify}	<br /> -->
+行约束：{$xianshi2|wordwrap:10:'<br>'}
+</body>
+</html>
