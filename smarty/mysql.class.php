@@ -1,8 +1,8 @@
 <?php
 /*
- * By:0x584A
- * Data:2014年12月27日 19:56:31
- * MySql操作类
+ * Created on 2010
+ * Link for job@phpyun.com
+ * This PHPYun.Rencai System Powered by PHPYun.com
  */
 
 class mysql {
@@ -244,7 +244,7 @@ class mysql {
 
 						//echo "文件 $filename 写入成功";
 
-						echo "――错误记录被保存!";
+						echo "——错误记录被保存!";
 
 						//关闭文件
 						fclose($handle);
@@ -268,7 +268,7 @@ class mysql {
 						}
 
 						//echo "文件 $filename 写入成功";
-						echo "――错误记录被保存!";
+						echo "——错误记录被保存!";
 
 						//关闭文件
 						fclose($handle);
